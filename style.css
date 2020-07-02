@@ -1,0 +1,135 @@
+body{
+    background-color: #e9eaf1;
+    color: #4d4965;
+}
+.contenedor{
+    width: 800px;
+    height: 300px;
+}
+.caja{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+.tarjeta{
+    width: 300px;
+}
+.contentBody{
+    background-color: white;
+    border-radius: 0 5% 5% 0;
+}
+.imgCard{
+    width: 120%;
+    border-radius: 5% 0 0 5%;
+}
+.avatarCard{
+    width: 45px;
+    margin-right: 15px;
+}
+.infoPerfil > p{
+    margin-bottom: 0;
+}
+.share{
+    height: 40px;
+    width: 40px;
+    background-color: #e7e9ff;
+}
+.share > svg{
+    margin: 13px;
+}
+.title{
+    font-size: 25px;
+    color: #4d4965;
+}
+.textVard{
+    color: #4d4965;
+}
+.name{
+    font-weight: 500;
+}
+.card-body{
+    padding: 2.9rem;
+}
+.perfil{
+    margin-top: 1.8rem;
+}
+.card{
+    -webkit-box-shadow: 20px 111px 100px -71px rgba(224,224,224,1);
+    -moz-box-shadow: 20px 111px 100px -71px rgba(224,224,224,1);
+    box-shadow: 20px 111px 100px -71px rgba(224,224,224,1);
+    border-radius: 20px;
+}
+#popover:hover{
+    background-color: #7d7f9c;
+}
+#popover:hover svg path{
+    fill: white;
+}
+.popover-body{
+    background-color: #333d61;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.popover{
+    border-radius: 10px;
+}
+.popover img{
+    margin: 0 5px;
+}
+.bs-popover-top>.arrow::before, .bs-popover-top>.arrow::after{
+    border-top-color: #333d61;
+}
+
+
+
+@media (max-width: 1024px) {
+    .card-body {
+        padding: 10px;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media (max-width: 375px) {
+    .caja{
+        width: 100%;
+    }
+    .imgCard{
+        width: 100%;
+        border-radius: 5% 5% 0 0;
+    }
+    .contentBody{
+        border-radius: 0 0 5% 5%;
+    }
+    .card-body{
+        padding: 35px;
+    }
+    .title{
+        font-size: 1rem;
+    }
+    .textCard{
+        font-size: .8rem;
+    }
+    .avatarCard{
+        width: 40px;
+    }
+    .share{
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+    }
+    .share svg{
+        margin: 8px;
+    }
+    .infoPerfil{
+        font-size: .8rem;
+        padding-left: 15px;
+    }
+    .popover{
+        transform: translate3d(30px, 556px, 10px);
+    }
+}
